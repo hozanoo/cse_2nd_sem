@@ -1,0 +1,18 @@
+# Ignore all files
+*
+
+# Allow directories at any depth
+!*/
+
+# Allow Python and Jupyter Notebook files
+!*.py
+!*.ipynb
+
+# Keep .gitignore
+!/.gitignore
+
+# Exclude cache and virtual environments
+**/__pycache__/
+**/.ipynb_checkpoints/
+**/.venv/
+**/venv/
